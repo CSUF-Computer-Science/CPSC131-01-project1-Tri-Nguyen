@@ -52,7 +52,7 @@ public:
 		else
 			throw invalid_argument("Could not open file " + filename);
 	}
-	
+	// return the most frequently appearing name in the text file
 	string mostPopularName()
 	{
 		
@@ -147,7 +147,6 @@ private:
 	int countname = 0; // the length of data 
 
 
-	// Add private member variables for your data structure along with any 
-	// other variables required to implement the public member functions
+
 
 };
